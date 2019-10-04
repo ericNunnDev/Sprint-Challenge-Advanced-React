@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import Players from './components/Players';
-import useDarkMode from './hooks/useDarkMode';
+import ThemeBtn from './components/ThemeBtn';
 import './App.scss';
 
 class App extends Component {
@@ -28,6 +28,7 @@ class App extends Component {
   render() {
     return (
       <div className='App'>
+        <ThemeBtn />
         <Players players={this.state.players} />
       </div>
     );
