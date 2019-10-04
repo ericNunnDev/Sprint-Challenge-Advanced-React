@@ -4,8 +4,8 @@ import Player from './Player';
 class Players extends Component {
     render() {
         return (
-            <div>
-                <h1>Players List</h1>
+            <div className='players'>
+                <h1>Women's World Cup Players</h1>
                 <ul>
                     {this.props.players.map(player => {
                         return (

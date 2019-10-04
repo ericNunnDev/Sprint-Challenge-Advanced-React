@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import './App.scss';
 import Players from './components/Players';
+import useDarkMode from './hooks/useDarkMode';
+import './App.scss';
 
 class App extends Component {
   constructor(props) {

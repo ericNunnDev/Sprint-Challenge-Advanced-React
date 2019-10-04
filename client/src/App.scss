@@ -1,9 +1,15 @@
 .App {
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
 .player-card {
     border: 2px solid #999;
     margin: 5px auto;
-    width: 200px;
+    width: 250px;
+}
+
+ul {
+    display: inline-flex;
+    flex-wrap: wrap;
 }
