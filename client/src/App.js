@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import './App.css';
+import Players from './components/Players';
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      players: []
+      players: [],
     }
   }
 
@@ -26,7 +27,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>App</h1>
+        <Players players={this.state.players} />
       </div>
     );
   }
