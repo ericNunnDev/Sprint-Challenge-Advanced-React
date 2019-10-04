@@ -2,10 +2,10 @@ import React from 'react';
 
 const Player = props => {
     return (
-        <div>
+        <div className='player-card'>
             <h2>{props.name}</h2>
-            <p>{props.country}</p>
-            <p>{props.searches}</p>
+            <p><strong>Country: </strong>{props.country}</p>
+            <p><strong>Searches: </strong>{props.searches}</p>
         </div>
     )
 }
